@@ -11,11 +11,10 @@ describe('Working with inputs', () => {
     });
     it("should fill password", () => {
         cy.get('input[name="user_password"]').clear()
-        cy.get('input[name="user_password"]').type(password)
+        cy.get('input[name="user_password"]').type('password')
     });
 
     it("should check the checkbox", () => {
-        cy.get('checkbox').clear()
-        cy.get('checkbox').check()
+        cy.get('#user_remember_me').check()
     });
 })
