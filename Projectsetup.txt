@@ -1,3 +1,9 @@
+<<<<<<< HEAD
 Cypress.json adalah file yang berisi konfigurasi dari berbagai nilai yang kita butuhkan dalam melakukan pengujian. Kita dapat mengubahnya sesuai dengan project yang sedang kita kerjakan. Hal yang bisa di konfigurasi dalam cypress.json atara lain, base url, timeout, folder path, screenshot, video, dll. 
 
 Contohnya, kita ingin mengatur value default command time out menjadi 8000, maka ketika kita mengubahnya melalui file cypress.json maka default command timeout yang awalnya 4000 akan diubah secara keseluruhan pada seluruh framework.
+=======
+Cypress.json adalah file yang berisi konfigurasi dari berbagai nilai yang kita butuhkan dalam melakukan pengujian. Kita dapat mengubahnya sesuai dengan project yang sedang kita kerjakan. Hal yang bisa di konfigurasi dalam cypress.json atara lain, base url, timeout, folder path, screenshot, video, dll. 
+
+Contohnya, kita ingin mengatur value default command time out menjadi 8000, maka ketika kita mengubahnya melalui file cypress.json maka default command timeout yang awalnya 4000 akan diubah secara keseluruhan pada seluruh framework.
+>>>>>>> a1ef47078e4c621d361ef434760850c7f4516cae
