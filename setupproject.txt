@@ -1,0 +1,7 @@
+Menurut saya, suatu setup project menjadi hal yang sangat penting untuk dilakukan di awal pembuatan aplikasi. Setup dilakukan untuk menghasilkan pekerjaan yang baik dan terstruktur ke depannya. Selain itu, setup project juga bisa mempermudah pekerjaan individu maupun tim dalam pembuatan suatu aplikasi. 
+
+Pada proses pembuatan aplikasi setup project menjadi suatu hal yang harus dilakukan pertama kali agar kualitas pekerjaan dan juga aplikasi yang akan dibuat dapat terlaksana dengan baik dan benar.  Di dalam video pembelajaran ditampilkan beberapa setup yang dilakuakn sebelum kita melakukan testing pada suatu aplikasi. Banyak hal yang bisa diatur agar testing yang akan dilakukan bisa terlaksana dengan baik. di samping itu, setup tersebut juga sangat berguna untuk mempermudah pekerjaan yang akan dilakukan. 
+
+Beberapa setup dilakukan untuk menjaga kualitas testing kita, seperti halnya pengaturan tools apa saja yang harus kita instal untuk melakukan pekerjaan agar pekerjaan kita menjadi lebih proper. selain itu, ada juga setup yang dilakukan untuk mempermudah pekerjaan kita agar tidak semua pekerjaan harus dilakukan secara manual. seperti halnya setup prettiere yang mana mampu membantu kita secara otomatis dalam mengatur tampilan code yang dibuat agar terlihat lebih baik, rapih, dan konsisten. 
+
+selain itu, ada juga pengaturan file konfigurasi cypress di dalam file cypress.json yang bisa kita kostumisasi sesuai kebutuhan kita. Ada banyak hal yang bisa kita atur dalam file konfigurasi ini, seperti pengaturan timeout, video, ignoretest, dll
