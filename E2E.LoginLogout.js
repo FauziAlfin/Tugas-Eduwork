@@ -4,8 +4,10 @@
 describe('Login/ Logout Test', () => {
     before(() => {
         cy.visit('http://zero.webappsecurity.com/index.html')
-        cy.url().should('include', 'index.html')
         cy.get('#signin_button').click()
+        cy.get('h3').should('contain.text', 'Log in to ZeroBank')
+        cy.get('#login_form').should('be.visible')
+
     })
  
     it('Should try to login with invalid data', () => {
@@ -30,14 +32,14 @@ describe('Login/ Logout Test', () => {
    
             cy.login(username, password)
         })
-           
+           cy.get('#account_summary_tab').should('be.visible')
         
     })
  
     it('should logout from the application', () => {
         cy.contains('username').click()
         cy.get('#logout_link').click()
-        cy.get('strong').should('contain.text', 'Feedback')
+        cy.get('#signin_button').should('be.visible')
  
  
     } )
