@@ -1,0 +1,1 @@
+Assertion untuk Method DELETE selain status code menurut saya adalah "expect().to.be.empty". Hal itu karena saya melihat di bagian response viewer disebelah status code ada peringatan no content. selain itu dibagian preview body juga tidak menampilkan apapun. 
