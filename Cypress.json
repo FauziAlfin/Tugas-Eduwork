@@ -1,0 +1,14 @@
+{
+    "video": false,
+    "defaultCommandTimeout": 5000,
+    "pageLoadTimeout": 10000,
+    "ignoreTestFiles": [],
+    "chromeWebSecurity": false,
+    "env": {
+      "url": "https://berapiapi.free.beeceptor.com",
+      "email": "billie.joe@reqres.in",
+      "password": "21guns"
+    }
+  
+    }
+  
